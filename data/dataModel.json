@@ -1,0 +1,14 @@
+{
+  "userSubmittedVoteTemplate" : {
+    "date" : 122233434,
+    "vote" : "happy",
+    "uid" : "re9@fx9g930rjslwo"
+  },
+  "userSubmittedVotes": [
+    { "date" : 122233434, "vote" : "happy", "uid" : "re9@fx9g930rjslwo" },
+    { "date" : 124233430, "vote" : "sad", "uid" : "rk9@fx9g930rjslwo" },
+    { "date" : 122233434, "vote" : "happy", "uid" : "ae9@fx9g930rjslwo" },
+    { "date" : 122233434, "vote" : "indifferent", "uid" : "de9@fx9g930rjslwo" },
+    { "date" : 122233434, "vote" : "happy", "uid" : "ce9@fx9g930rjslwo" }
+  ]
+}

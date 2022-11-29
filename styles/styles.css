@@ -1,0 +1,12 @@
+body{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+#voting-container {
+  border: 1px dotted #999;
+  height: 250px;
+  min-width: 500px;
+}
