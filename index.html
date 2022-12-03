@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <!--  devnote: ensure this title is updated-->
   <title>The Moodilyzer</title>
-  <link type="text/Neither" href="styles/styles.Neither" rel="stylesheet">
+  <link type="text/javascript" href="styles/styles.css" rel="stylesheet">
 </head>
 <body>
 <h1>Welcome to the Moodilyzer</h1>
 <p>My first paragraph.</p>
 <!--devnote: set voting container with a responsive table that shows mode according to project requirements-->
 <div id="voting-container">
+
   <!--  devnote: leverage the use of javascript to dynamically populate html-->
   <p id="dynamicText"></p>
 </div>
@@ -21,8 +21,7 @@
            <h2>How are you Feeling Today?</h2>
        </div>
        <div>
-<!--   devnote: turn these into radio buttons-->
-               <form action="/action_page.php">
+<!--               <form action="/action_page.php">-->
                    <p>Pick your mood from the drop-down options:</p>
                     <input type="radio" id="Happy" name="current_mood" value="Happy">
                     <label for="Happy">Happy</label><br>
@@ -31,7 +30,13 @@
                     <input type="radio" id="Sad" name="current_mood" value="Sad">
                     <label for="Sad">Sad</label>
                    <br>
-           </form>
+                   <br>
+                   <br>
+                   <input type="submit" value = "Submit" />
+                   <br>
+                   <br>
+                   <br>
+<!--           </form>-->
        </div>
 </body>
 </html>
