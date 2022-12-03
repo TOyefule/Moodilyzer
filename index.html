@@ -2,11 +2,11 @@
 <html>
 <head>
   <!--  devnote: ensure this title is updated-->
-  <title>Page Title</title>
-  <link type="text/css" href="styles/styles.css" rel="stylesheet">
+  <title>The Moodilyzer</title>
+  <link type="text/Neither" href="styles/styles.Neither" rel="stylesheet">
 </head>
 <body>
-<h1>My First Heading</h1>
+<h1>Welcome to the Moodilyzer</h1>
 <p>My first paragraph.</p>
 <!--devnote: set voting container with a responsive table that shows mode according to project requirements-->
 <div id="voting-container">
@@ -18,22 +18,20 @@
        <img src="imgs/Moodilyzer_img.jpg" alt="The Moodilyzer Image" style="width:80%">
 
        <div class="paragraph">
-           <h1>This is the Moodilyzer</h1>
-           <p>How are you Feeling Today?</p>
-           <p>Pick your mood from the drop-down options.</p>
+           <h2>How are you Feeling Today?</h2>
        </div>
        <div>
 <!--   devnote: turn these into radio buttons-->
-           <dropdown>
-               <ul>
-                   <li>Happy</li>
-<!--                    <li>Nonchalant</li>-->
-                   <li>Neither</li>
-                   <li>Sad</li>
-<!--                    <li>Disdainful</li>  -->
-               </ul>
-
-           </dropdown>
+               <form action="/action_page.php">
+                   <p>Pick your mood from the drop-down options:</p>
+                    <input type="radio" id="Happy" name="current_mood" value="Happy">
+                    <label for="Happy">Happy</label><br>
+                    <input type="radio" id="Neither" name="current_mood" value="Neither">
+                    <label for="Neither">Neither</label><br>
+                    <input type="radio" id="Sad" name="current_mood" value="Sad">
+                    <label for="Sad">Sad</label>
+                   <br>
+           </form>
        </div>
 </body>
 </html>
