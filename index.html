@@ -6,37 +6,25 @@
 </head>
 <body>
 <h1>Welcome to the Moodilyzer</h1>
-<p>My first paragraph.</p>
-<!--devnote: set voting container with a responsive table that shows mode according to project requirements-->
-<div id="voting-container">
+<!-- <p>How are you feeling today?.</p> -->
 
-  <!--  devnote: leverage the use of javascript to dynamically populate html-->
-  <p id="dynamicText"></p>
 </div>
 <script type="text/javascript" src="scripts/scripts.js"></script>
 <!-- Image -->
-       <img src="imgs/Moodilyzer_img.jpg" alt="The Moodilyzer Image" style="width:80%">
+       <img src="imgs/Moodilyzer_img.jpg" alt="The Moodilyzer Image" style="width:50%">
 
        <div class="paragraph">
            <h2>How are you Feeling Today?</h2>
        </div>
-       <div>
-<!--               <form action="/action_page.php">-->
-                   <p>Pick your mood from the drop-down options:</p>
-                    <input type="radio" id="Happy" name="current_mood" value="Happy">
-                    <label for="Happy">Happy</label><br>
-                    <input type="radio" id="Neither" name="current_mood" value="Neither">
-                    <label for="Neither">Neither</label><br>
-                    <input type="radio" id="Sad" name="current_mood" value="Sad">
-                    <label for="Sad">Sad</label>
-                   <br>
-                   <br>
-                   <br>
-                   <input type="submit" value = "Submit" />
-                   <br>
-                   <br>
-                   <br>
-<!--           </form>-->
-       </div>
+         <form id="mood-form">
+            <input type="radio" name="mood" value="happy"> Happy<br>
+            <input type="radio" name="mood" value="sad"> Sad<br>
+            <input type="radio" name="mood" value="neither"> Neither<br><br>
+            <input type="submit" value="Submit">
+          </form>
+          <div id="response"></div>
+
+          <script src="moodylizer.js"></script>
+
 </body>
 </html>
