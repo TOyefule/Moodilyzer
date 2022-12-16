@@ -1,12 +1,66 @@
-body{
+body {
+  background-color: #b4cbc7;
+  margin: 24px;
+  font-family:  Arial, Helvetica, sans-serif;
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
   align-items: center;
+
 }
-#voting-container {
-  border: 1px dotted #999;
+
+.page {
   height: 250px;
   min-width: 500px;
 }
+
+h1 {
+  /*background-color: lightBlue;*/
+}
+
+h2 {
+  /*background-color: lightgreen;*/
+}
+
+p {
+  /*background-color: #b4cbc7;*/
+  text-align: center;
+}
+
+
+
+.countdown {
+/*  background-color: #fcfbfc;*/
+
+}
+
+#card {
+  margin-top: 3px;
+  background-color: rgba(154, 189, 192, 0.72);
+  width: 500px;
+  z-index: 100;
+  padding: 20px;
+  opacity: 1;
+ border-radius: 12px;
+}
+#textarea {
+}
+
+.feelings {
+  width: 100%
+}
+.headings {
+  color: rgba(6, 6, 56, 0.55);
+  text-align: center;
+  font-size: 18px;
+  font-synthesis-small-caps: auto;
+}
+.main-heading {
+  text-align: center;
+  font-size: 22px;
+
+}
+
+
+/*Devnote: Utilize Wavey blue CSS you Created back in Medapptic for background*/

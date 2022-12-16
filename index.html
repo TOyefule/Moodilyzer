@@ -1,35 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><title>The Moodilyzer</title>
-  <!--  <link type="text/javascript" href="styles/styles.css" rel="stylesheet">-->
+<head>
+  <style></style>
+
+    <title>The Moodilyzer</title>
+        <link rel="stylesheet"  type="text/css" href="styles/styles.css" />
+        <link rel="stylesheet"  type="text/css" href="theme.css"/>
 </head>
 <body>
-<h1>Welcome to the Moodilyzer</h1>
-<span>This app is a polling system that logs your mood, and the current mode of countless others.</span>
-<hr/>
-<div class="paragraph">
-  <h2>How are you Feeling Today?</h2>
-</div>
+
+
+<div id="card">
+    <h1 class="main-heading headings">Welcome to the Moodilyzer</h1>
+    <!--Devnote make this next section a hover overable element, or when you touch moodilyzer let the discription show up in a box and then fade away.-->
+    <span>This app is a polling system that logs your mood, and the current mode of countless others.</span>
+    <hr/>
+
+      <div class="paragraph">
+        <h2 class ="headings">How are you Feeling Today?</h2>
+  </div>
 
 <form id="mood-form" action="data/formProcess.php">
-  <input type="radio" name="mood" value="happy"> Happy<br>
-  <input type="radio" name="mood" value="sad"> Sad<br>
-  <input type="radio" name="mood" value="neither"> Neither<br><br>
-  <input type="submit" value="Submit">
+  <div class="option"> <input type="radio" name="mood" value="happy"> Happy<br></div>
+  <div class="option"> <input type="radio" name="mood" value="sad"> Sad<br></div>
+  <div class="option"> <input type="radio" name="mood" value="neither"> Neither<br><br></div>
+  <div class="submit"> <input type="submit" value="Submit">
+  </div>
 </form>
 
-<hr/>
-<h2 id="response"> Thank you for your form submission </h2>
-<p>You mood was submitted as: <code>happy</code> <!--mood from php return--> </p>
+  <br>
+<!--devnote: make this portion viewable only after Mood Loging"-->
+  <div class="paragraph">
+    <h2 class ="headings">Can you Explain what caused you to feel this way?</h2>
+      <div class="feelings">
+        <textarea> Enter your feelings here</textarea>
+<!--    <input type="textarea" id="feelings" style=" height:60px; center: 0">-->
+        </div>
+  </div>
+
+<!--devnote: make this portion viewable only after submission"-->
+
 
 <hr/>
-<h2 id="countdown">Check back in X hours XX minutes XXY seconds for the poll results</h2>
+<h3 class ="headings"> Thank you for your form submission </h3>
+<p>Your mood was submitted as: <code>happy</code> <!--mood from php return--> </p>
+  <br>
+
+
+<hr/>
+<h4 class ="headings">Check back in X hours XX minutes XXY seconds for the poll results</h4>
 <p>XYX Happy | XX Sad || XX Neither</p>
+  <div class="ocean">
+    <div class="wave"></div>
+    <div class="wave"></div>
+    </div>
 
 
+<script type="text/javascript" src="scripts/scripts.js"></script>
 
 
-<!--<script type="text/javascript" src="scripts/scripts.js"></script>-->
-
+</div>
 </body>
 </html>
