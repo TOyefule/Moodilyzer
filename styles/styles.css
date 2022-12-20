@@ -1,6 +1,6 @@
 body {
   background-color: #b4cbc7;
-  margin: 24px;
+  margin: 30px;
   font-family:  Arial, Helvetica, sans-serif;
   display:flex;
   flex-direction: column;
@@ -11,7 +11,7 @@ body {
 }
 
 .page {
-  height: 250px;
+  height: 2500px;
   min-width: 500px;
 }
 
@@ -26,6 +26,9 @@ h2 {
 p {
   /*background-color: #b4cbc7;*/
   text-align: center;
+}
+div {
+  align-content: center;
 }
 
 #card {
