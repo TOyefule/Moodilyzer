@@ -1,22 +1,22 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
     <html lang="en">
 
-    <head>
-      <style></style>
-      <title>The Moodilyzer</title>
-      <link rel="stylesheet" type="text/css" href="styles/styles.css" />
-      <link rel="stylesheet" type="text/css" href="theme.css" />
-    </head>
-    <body>
-      <div id="card">
+        <head>
+          <style></style>
+          <title>The Moodilyzer</title>
+          <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+          <link rel="stylesheet" type="text/css" href="theme.css" />
+        </head>
+      <body>
+          <div id="card">
           <div class="tile welcome">
             <h1 class="main-heading headings">Welcome to the Moodilyzer</h1>
-            <!--Devnote make this next section a hover overable element, or when you touch moodilyzer let the discription show up in a box and then fade away.-->
-            <span>This app is a polling system that logs your mood,
+            <!--Devnote make this next section a hover element,
+            or when you touch moodilyzer let the discription show up in a box and then fade away.-->
+              <span>This app is a polling system that logs your mood,
                       and the current mode of countless others.</span>
                         <hr />
             </div>
-
           <div class="tile feeling">
             <div class="paragraph">
               <h2 class="headings">How are you Feeling Today?</h2>
@@ -27,23 +27,22 @@
                   <div class="submit"> <input type="submit" value="Submit"><button>Submit</button></div>
                     <br> <br>
                 </form>
-
               </div>
             </div>          <hr />
 
           <div class="tile mood-logs">
             <!--devnote: make this portion viewable only after Mood Loging"-->
-            <div class="paragraph">
-              <h2 class="headings">Can you Explain what caused you to feel this way?</h2>
-                <div class="feelings">
-                  <textarea> Enter your feelings here</textarea>
-                    <!--    <input type="textarea" id="feelings" style=" height:60px; center: 0">-->
-                    <button>Submit</button>
-                </div>
+              <div class="paragraph">
+                <h2 class="headings">Can you Explain what caused you to feel this way?</h2>
+                  <div class="feelings">
+                    <textarea> Enter your feelings here</textarea>
+                      <!--    <input type="textarea" id="feelings" style=" height:60px; center: 0">-->
+                        <button>Submit</button>
+                        </div>
                       <br>
-              </div>
-                <br>
-            <hr />
+                    </div>
+                  <br>
+              <hr />
           </div>
 
           <div class="tile form-submission">
@@ -60,7 +59,6 @@
                 <h4 class="headings">Check back in X hours XX minutes XXY seconds for the poll results</h4>
                 <p>XYX Happy | XX Sad || XX Neither</p>
           </div>
-
       </div>
 
 
@@ -71,31 +69,31 @@
 
 
         <script type="text/javascript" src="scripts/scripts.js"></script>
-    <style>
+        <style>
 
                 button {
                           background-color: transparent;
                           border-radius: 8px;
                           border: 1px solid navy;
-                    /* padding-right: 10px; */
-                    padding: 4px 10px;
-                    /* padding-bottom: 4px; */
+                                            /* padding-right: 10px; */
+                          padding: 4px 10px;
+                                            /* padding-bottom: 4px; */
                           font-size: 1.4rem;
                           position: center;
-                          perspective: 3.3cm;
-                    }
+                                            /* perspective: 3.3cm; */
+                        }
 
                 button:hover {
                           background-color: blue;
                           border: inherit;
                           color: white;
-                    }
-    </style>
-    <script>
+                        }
+          </style>
+          <script>
       // var div = document.getElementByClass('some-tile');
       // div.addEventListener('click', function(event) {
-      //   div.innerHTML = 'You clicked it!';
-      // });
-    </script>
-    </body>
+      // div.innerHTML = 'You clicked it!';
+      //                                });
+        </script>
+      </body>
     </html>

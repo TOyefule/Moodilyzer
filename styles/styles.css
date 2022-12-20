@@ -1,18 +1,56 @@
 body {
   background-color: #b4cbc7;
   margin: 30px;
-  font-family:  Arial, Helvetica, sans-serif;
-  display:flex;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
   align-items: center;
-
+}
+#card {
+  margin-top: 3px;
+  background-color: rgba(154, 189, 192, 0.72);
+  width: 500px;
+  z-index: 100;
+  padding: 20px;
+  opacity: 1;
+  border-radius: 12px;
 }
 
+.tile {
+
+
+
+}
+#mood-form {
+  alignment: center;
+}
 .page {
   height: 2500px;
   min-width: 500px;
+}
+
+
+.option {
+  width: 100%;
+  alignment: center;
+}
+
+.countdown {
+  /*  background-color: #fcfbfc;*/
+}
+
+.headings {
+  color: rgba(6, 6, 56, 0.55);
+  text-align: center;
+  font-size: 18px;
+  font-synthesis-small-caps: auto;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 22px;
 }
 
 h1 {
@@ -27,38 +65,7 @@ p {
   /*background-color: #b4cbc7;*/
   text-align: center;
 }
+
 div {
   align-content: center;
 }
-
-#card {
-  margin-top: 3px;
-  background-color: rgba(154, 189, 192, 0.72);
-  width: 500px;
-  z-index: 100;
-  padding: 20px;
-  opacity: 1;
- border-radius: 12px;
-}
-#textarea {
-}
-.feelings {
-  width: 100%
-}
-.countdown {
-  /*  background-color: #fcfbfc;*/
-
-}
-.headings {
-  color: rgba(6, 6, 56, 0.55);
-  text-align: center;
-  font-size: 18px;
-  font-synthesis-small-caps: auto;
-}
-.main-heading {
-  text-align: center;
-  font-size: 22px;
-
-}
-
-
