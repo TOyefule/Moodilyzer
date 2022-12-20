@@ -28,13 +28,6 @@ p {
   text-align: center;
 }
 
-
-
-.countdown {
-/*  background-color: #fcfbfc;*/
-
-}
-
 #card {
   margin-top: 3px;
   background-color: rgba(154, 189, 192, 0.72);
@@ -46,9 +39,12 @@ p {
 }
 #textarea {
 }
-
 .feelings {
   width: 100%
+}
+.countdown {
+  /*  background-color: #fcfbfc;*/
+
 }
 .headings {
   color: rgba(6, 6, 56, 0.55);
@@ -63,4 +59,3 @@ p {
 }
 
 
-/*Devnote: Utilize Wavey blue CSS you Created back in Medapptic for background*/
